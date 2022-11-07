@@ -35,7 +35,7 @@ class TwitterTemplate(wrapper: PluginWrapper) : JaisPlugin(wrapper) {
         try {
             twitter = Twitter.newBuilder().oAuthConsumer(config.oAuthConsumerKey, config.oAuthConsumerSecret).oAuthAccessToken(config.oAuthAccessToken, config.oAuthAccessTokenSecret).build()
             // Test the connection
-            twitter?.v1()?.tweets()?.lookup(1)
+            twitter?.v1()?.tweets()?.lookup(1588739131815112704)
         } catch (e: Exception) {
             throw RuntimeException("An error occurred while creating the Twitter instance. Please check your credentials.")
         }
