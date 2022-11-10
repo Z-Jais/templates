@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
-        <kotlin.code.version>1.7.20</kotlin.code.version>
+        <kotlin.code.version>1.7.21</kotlin.code.version>
         <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
         <main.class>fr.ziedelth.twittertemplate.TwitterTemplate</main.class>
     </properties>
@@ -193,12 +193,12 @@
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
-            <version>1.7.20</version>
+            <version>1.7.21</version>
         </dependency>
         <dependency>
             <groupId>com.github.Z-Jais</groupId>
             <artifactId>API</artifactId>
-            <version>c2681fc3e1eca89504ec70f9a0e4eed7170b36e6</version>
+            <version>1.0.5</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
