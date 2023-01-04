@@ -198,7 +198,7 @@
         <dependency>
             <groupId>com.github.Z-Jais</groupId>
             <artifactId>API</artifactId>
-            <version>1.0.6c</version>
+            <version>1.0.8</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
